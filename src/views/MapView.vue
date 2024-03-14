@@ -78,7 +78,6 @@ const handleConfirmTrip = () => {
         destination: location.destination.geometry,
         destination_name: location.destination.name
     }).then((res) => {
-        console.log(res)
         router.push({
             name: 'trip'
         })
